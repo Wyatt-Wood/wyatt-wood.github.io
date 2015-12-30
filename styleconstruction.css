@@ -1,0 +1,18 @@
+#upcoming{
+ border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 400px;
+    margin: auto;
+    background: black;
+}
+
+h1{
+    color: floralwhite;
+    font-family: Abel;
+}
+
+.list{
+    color: floralwhite;
+    font-family: Abel;
+    font-size: 20px;
+}
