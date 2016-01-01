@@ -1,43 +1,55 @@
-html,body {
-    margin: 0;
-    padding: 0;
+/* Quick Select Buttons*/
+
+.buttons {
+  /* Positioning */
+  
+  float: right;
+  position: fixed;
+  right: 0px;
+  /* Design */
+  
+  width: 40px;
+    z-index: 5;
 }
 
+#button {
+  /* Positioning */
+  
+  float: right;
+  line-height: 9.6px;
+  margin-right: 20px;
+  margin-top: 10px;
 
-/*Header div to contain header photo, buttons, background*/
-#headerContainer{
-    display: block;  
-    width: 100%;
-    height: 100vh;
+  /* Design */
+  
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+  opacity: 0.4;
+  border: 2px solid white;
 }
 
-
-#headerBackground{
-  width: 100%;
-  height: 100vh;
-      -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px);
+div#button:hover {
+	filter: invert(1);
+	-webkit-filter: invert(1);
+	-moz-filter: invert(1);
+	-o-filter: invert(1);
+	-ms-filter: invert(1);
 }
 
-
-/*Buttons*/
-
-#buttons {  
-  height: auto;
-    width: 42px;
-    position: fixed;
-    top: 25px;
-    right: 25px;
-    z-index: 10;
-}
-
-.logo {
+#logo {
+  /* Positioning */
+  
   float: right;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
+  /* Design */
+  
+  width: auto;
+  height: auto;
   max-width: 40px;
   max-height: 40px;
   border-radius: 100%;
@@ -45,7 +57,7 @@ html,body {
   opacity: 0.4;
 }
 
-.logo:hover {
+#logo:hover {
     filter: invert(1);
 	-webkit-filter: invert(1);
 	-moz-filter: invert(1);
@@ -53,25 +65,36 @@ html,body {
 	-ms-filter: invert(1);
 }
 
+/* Opening Page */
+.header {
+  width: 100%;
+  height: 1080px;
+  z-index: 1;
+  border-bottom: 2px solid rgba(256,256,256,0.6);
+}
 
+#headerDesign{
+  width: 100%;
+  height: 100%;
+}
 
+/* Header Photo */
 
-/*Header*/
-
-#headerPhoto {
+#photo {
+  /* Design */
   height: 400px;
   width: 400px;
   border-radius: 100%;
   border: 5px solid rgba(256, 256, 256, .1 );
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-    top: 200px;    
+  display:block;
+  margin: auto;
 }
 
-/*Intro*/
+.photodiv {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}
 
 #name {
   font-family: "Lucida Sans Unicode";
@@ -81,71 +104,81 @@ html,body {
   letter-spacing: 5px;
   color: white;
   position: absolute;
-  top: 800px;
-  opacity: 0.8;
-  background: brown;
+  top: 650px;
+  opacity: 0.5;
+    background
 }
 
-#occupation {
-  font-family: "Lucida Sans Unicode";
-  font-size: 25px;
-  margin-top: 25px;
-   width: 100%;
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 875px;
-  opacity: 0.6;
-
-}
-
-#horizontal {
-  border: 3px solid rgba(256, 256, 256, 0.6);
+#horizontal1 {
+  border: 3px solid rgba(256, 256, 256, 0.5);
   width: 60%;
   position: absolute;
   left: 20%;
   top: 850px;
 }
 
+#horizontal2 {
+  border: 3px solid rgba(256, 256, 256, 0.5);
+  width: 60%;
+  position: absolute;
+  left: 20%;
+  top: 600px;
+}
 
+#occupation {
+  font-family: "Lucida Sans Unicode";
+  font-size: 25px;
+  padding-top: 25px;
+   width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 725px;
+  opacity: 0.5;
+}
 
-
-
-/*Portfolio*/
-
-#mainContainer{
-    display: table;
-    margin: 0 auto;
-    width: 100%;
-    background-image: url( http://st.hzcdn.com/simgs/270191bc01abba42_4-7818/eclectic-fabric.jpg);
-    border-top: 2px solid white;
+body{
+  overflow-x: hidden;
+  background: black;
 }
 
 #portfolioPhoto{
   height: 400px;
   width: 400px;
-  opacity: 0.8;
+  opacity: 0.5;
     border-radius: 50px;
 }
 
-#portfolioContainer{
-    position: relative;
-    width: 400px;
-    display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 7%;
+#horizontal3 {
+  border: 1px solid rgba(256, 256, 256, .6);
+  width: 100%;
 }
 
-.rotatedText{
-  position: absolute;
-    top: 40px;
-   width: 100%;
+#portfolioText2{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 100px;
+    font-family: sans-serif;
+    color: grey;
+
+    /* Safari */
+-webkit-transform: rotate(-45deg);
+/* Firefox */
+-moz-transform: rotate(-45deg);
+/* IE */
+-ms-transform: rotate(-45deg);
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+portfolioText1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
     font-size: 100px;
     font-family: sans-serif;
     color: white;
-    text-align: center;
-    text-shadow: 2px 2px grey;
     
 /* Safari */
 -webkit-transform: rotate(-45deg);
@@ -155,9 +188,52 @@ html,body {
 -ms-transform: rotate(-45deg);
 }
 
-#footer{
+#littleContainer{
+    position: relative;
+    width: 400px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#bigContainer{
+    display: table;
+    margin: 0 auto;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#counter{
+    background: white;
+    opacity: 0.5;
+}
+
+#counterText{
     color: white;
+    display: inline-block;
+    font-size: 1em;
+    padding-right: 5px;
     font-family: Abel;
-    text-align: right;
-    margin-right: 50px;dc
+    opacity: 0.5;
+}
+
+#counterContainer{
+    width: 100%;
+    text-align: left;
+    background-image: url("https://digitalpizza.files.wordpress.com/2014/01/difference-between-atmosphere-and-space1.jpg");
+}
+
+#counterPhoto{
+    height: 15px;
+    width: auto;
+}
+
+#footer p{
+    color: grey;
+    text-align: center;
+}
+#footer{
+    width: 300px;
+    display: inline-block;
 }
