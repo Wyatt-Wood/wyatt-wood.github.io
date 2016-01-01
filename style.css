@@ -1,63 +1,53 @@
-/* Quick Select Buttons*/
-
-.buttons {
-  /* Positioning */
-  
-  float: right;
-  position: fixed;
-  right: 0px;
-  /* Design */
-  
-  width: 40px;
-    z-index: 5;
+html,body {
+    margin: 0;
+    padding: 0;
 }
 
-#button {
-  /* Positioning */
-  
-  float: right;
-  line-height: 9.6px;
-  margin-right: 20px;
-  margin-top: 10px;
+#topBar{
+    background-color: rgba(222, 96, 60, 0.7);
+opacity: 0.9;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
 
-  /* Design */
-  
-  text-align: center;
-  height: 40px;
-  width: 40px;
-  background-color: black;
-  border-radius: 100%;
+/*Header div to contain header photo, buttons, background*/
+#headerContainer{
+    display: block;  
+    width: 100%;
+    height: 100vh;
+    background-image: url(http://consultationformaction.com/wp-content/uploads/2014/09/horizon-2.jpg);
+    background-size: 100% 100%;
+}
+
+
+
+#name {
+  font-family: "Lucida Sans Unicode";
+  text-align: left;
+    margin-left: 15%;
+  font-size: 40px;
+  letter-spacing: 3px;
   color: white;
-  opacity: 0.4;
-  border: 2px solid white;
+  opacity: 0.8;
+    display: inline-block;
 }
 
-div#button:hover {
-	filter: invert(1);
-	-webkit-filter: invert(1);
-	-moz-filter: invert(1);
-	-o-filter: invert(1);
-	-ms-filter: invert(1);
-}
-
-#logo {
-  /* Positioning */
-  
+.logo {
   float: right;
-  margin-right: 20px;
-  margin-top: 15px;
-  /* Design */
-  
-  width: auto;
-  height: auto;
-  max-width: 40px;
-  max-height: 40px;
+  margin-right: 30px;
+  margin-top: 12.5px;
+  max-width: 35px;
+  max-height: 35px;
   border-radius: 100%;
   border: 2px solid white;
-  opacity: 0.4;
+  opacity: 0.5;
+ 
 }
 
-#logo:hover {
+.logo:hover {
     filter: invert(1);
 	-webkit-filter: invert(1);
 	-moz-filter: invert(1);
@@ -65,175 +55,102 @@ div#button:hover {
 	-ms-filter: invert(1);
 }
 
-/* Opening Page */
-.header {
-  width: 100%;
-  height: 1080px;
-  z-index: 1;
-  border-bottom: 2px solid rgba(256,256,256,0.6);
+#logoContainer{
+    position: absolute;
+    top: 0px;
+    right: 10%;
 }
 
-#headerDesign{
-  width: 100%;
-  height: 100%;
-}
-
-/* Header Photo */
-
-#photo {
-  /* Design */
-  height: 400px;
-  width: 400px;
-  border-radius: 100%;
-  border: 5px solid rgba(256, 256, 256, .1 );
-  display:block;
-  margin: auto;
-}
-
-.photodiv {
-  width: 100%;
-  position: absolute;
-  top: 100px;
-}
-
-#name {
-  font-family: "Lucida Sans Unicode";
-  width: 100%;
-  text-align: center;
-  font-size: 50px;
+#name2{
+     font-family: "Alegreya Sans";
+  font-size: 60px;
   letter-spacing: 5px;
-  color: white;
-  position: absolute;
-  top: 650px;
-  opacity: 0.5;
-    background
-}
-
-#horizontal1 {
-  border: 3px solid rgba(256, 256, 256, 0.5);
-  width: 60%;
-  position: absolute;
-  left: 20%;
-  top: 850px;
-}
-
-#horizontal2 {
-  border: 3px solid rgba(256, 256, 256, 0.5);
-  width: 60%;
-  position: absolute;
-  left: 20%;
-  top: 600px;
-}
-
-#occupation {
-  font-family: "Lucida Sans Unicode";
-  font-size: 25px;
-  padding-top: 25px;
-   width: 100%;
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 725px;
-  opacity: 0.5;
-}
-
-body{
-  overflow-x: hidden;
-  background: black;
-}
-
-#portfolioPhoto{
-  height: 400px;
-  width: 400px;
-  opacity: 0.5;
-    border-radius: 50px;
-}
-
-#horizontal3 {
-  border: 1px solid rgba(256, 256, 256, .6);
-  width: 100%;
-}
-
-#portfolioText2{
     position: absolute;
-    top: 10%;
-    left: 5%;
-    font-size: 100px;
-    font-family: sans-serif;
-    color: grey;
-
-    /* Safari */
--webkit-transform: rotate(-45deg);
-/* Firefox */
--moz-transform: rotate(-45deg);
-/* IE */
--ms-transform: rotate(-45deg);
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    top: 25%;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 50px;
 }
 
-portfolioText1{
+#name3{
+     font-family: "Alegreya Sans";
+  font-size: 40px;
+  letter-spacing: 2px;
     position: absolute;
-    top: 10%;
-    left: 5%;
-    font-size: 100px;
-    font-family: sans-serif;
-    color: white;
-    
-/* Safari */
--webkit-transform: rotate(-45deg);
-/* Firefox */
--moz-transform: rotate(-45deg);
-/* IE */
--ms-transform: rotate(-45deg);
+    top: 30%;
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 75px;
 }
 
-#littleContainer{
-    position: relative;
-    width: 400px;
+#name4{
+     font-family: "Alegreya Sans";
+  font-size: 40px;
+  letter-spacing: 2px;
+    position: absolute;
+    top: 35%;
+    margin-top: 20px;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 75px;
+}
+  
+/*Header*/
+
+#headerPhoto {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  border: 2px solid rgba(256, 256, 256, .3 );
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 150px;    
+  pointer-events: none;
+}
+
+/*Portfolio*/
+.portfolioContainer{
+    border: 2px solid white;
+    border-radius: 10px;
     display: inline-block;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+     padding-left: 40px;
+    padding-right: 40px;
+    opacity: 0.7;
 }
 
-#bigContainer{
-    display: table;
-    margin: 0 auto;
-    width: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+.portfolioContainer, a, p{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.portfolioContainer:hover{
+  opacity: 0.5;
+}
+
+#linkContainer{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+#footer{
+    color: darkgrey;
+    font-family: Open Sans Condensed;
+    position: absolute;
+    font-size: 15px;
+    bottom: 0px;
+    right: 50px;
 }
 
 #counter{
-    background: white;
-    opacity: 0.5;
-}
-
-#counterText{
-    color: white;
-    display: inline-block;
-    font-size: 1em;
-    padding-right: 5px;
-    font-family: Abel;
-    opacity: 0.5;
-}
-
-#counterContainer{
-    width: 100%;
-    text-align: left;
-    background-image: url("https://digitalpizza.files.wordpress.com/2014/01/difference-between-atmosphere-and-space1.jpg");
-}
-
-#counterPhoto{
-    height: 15px;
-    width: auto;
-}
-
-#footer p{
-    color: grey;
-    text-align: center;
-}
-#footer{
-    width: 300px;
-    display: inline-block;
+    position:absolute;
+    bottom: 0px;
 }

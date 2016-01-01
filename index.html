@@ -1,76 +1,95 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 
 <head>
   <title>Wyatt Wood</title>
-  <link rel= "stylesheet" href = "style.css" type = "text/css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
+    <link rel= "stylesheet" href = "style.css" type = "text/css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,100' rel='stylesheet' type='text/css'>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="student resume site">
+    <meta name="keywords" content="Resume, Wyatt Wood">
+    <meta name="author" content="Wyatt Wood">
+    <base href="http://www.wyattwood.me" target="_blank">
 </head>
 
+        
+    
+    
 <body>
 
-  <!-- buttons/icons -->
-  <div class="buttons">
-    <!-- Quick select button -->
-    <div id="button">__ ___ __
-    </div>
-
-      <!-- Facebook button -->
-      <a href="https://www.facebook.com/wyatt.wood.9822"> <img id="logo" src="https://image.freepik.com/free-icon/facebok-circular-logo_318-40188.png" /> </a>
-
-      <!-- Twitter button -->
-      <a href="https://twitter.com/thewyattwood"> <img id="logo" src="https://image.freepik.com/free-icon/twitter-circular-logo_318-53069.jpg" /> </a>
-        
-      <!-- LinkedIN button -->
-    <a href = "https://ca.linkedin.com/in/wyatt-wood-030a31b6"> <img id = "logo" src="http://cdn.mysitemyway.com/icons-watermarks/flat-circle-white-on-black/raphael/raphael_linkedin/raphael_linkedin_flat-circle-white-on-black_512x512.png" /> </a>
-      <!-- email button -->
-    <a href = "mailto:wyatt.wood@queensu.ca?"> <img id = "logo" src="http://cbctemecula.com/wp-content/uploads/mail-round.png" /> </a>
-  </div>
-
-  <!--Header -->
-<div class="header">
-    <img id = "headerDesign" src = "https://digitalpizza.files.wordpress.com/2014/01/difference-between-atmosphere-and-space1.jpg" />
-</div>
-
-    <!-- Headshot -->
-    <div class="photodiv">
-      <img id="photo" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xal1/v/t1.0-9/12074884_1502189716769524_7811030605429363275_n.jpg?oh=807dd71acfc8d720868b111bdee2dad3&oe=56AFEB7A" />
-    </div>
-
-    <div id = "horizontal1"></div>
-    <div id="name"> <b>Wyatt Wood</b> </div>
-    <div id = "occupation">Computer Eng. @ Queen's University</div>
-    <div id = "horizontal2"></div>
+<div id = "headerContainer">
+<div id = "topBar">
+<div id = "name"> <b> Wyatt Wood </b> </div>
     
-<div id = "bigContainer">
-       <div id = "littleContainer">
-           <a>
-           <img id = "portfolioPhoto" src = "http://images.freeimages.com/images/thumbs/699/torn-paper-2-1148617.jpg" /> 
-           <p id = "portfolioText1">About</p> </a>
-       </div>
+    <div id = "logoContainer">
+<!--Buttons-->
 
-        <div id = "littleContainer">
-            <a href="file:///C:\Users\Wyatt\Documents\Resume\Resume-Wyatt Wood.pdf" download = "WyattWood">
-            <img id = "portfolioPhoto" src = "http://images.all-free-download.com/images/graphiclarge/black_suit_vector_266415.jpg" />
-            <p id = "portfolioText2">Resume</p> </a>
+    <!-- Facebook -->
+      <a href="https://www.facebook.com/wyatt.wood.9822"> <img class="logo" src="https://image.freepik.com/free-icon/facebok-circular-logo_318-40188.png" /> </a>
+
+      <!-- Twitter-->
+      <a href="https://twitter.com/thewyattwood"> <img class="logo" src="https://image.freepik.com/free-icon/twitter-circular-logo_318-53069.jpg" /> </a>
+        
+      <!-- LinkedIN-->
+    <a href = "https://ca.linkedin.com/in/wyatt-wood-030a31b6"> <img class = "logo" src="http://cdn.mysitemyway.com/icons-watermarks/flat-circle-white-on-black/raphael/raphael_linkedin/raphael_linkedin_flat-circle-white-on-black_512x512.png" /> </a>
+      <!-- Email -->
+    <a href = "mailto:wyatt.wood@queensu.ca?"> <img class = "logo" src="http://cbctemecula.com/wp-content/uploads/mail-round.png" /> </a>
+      
+    <a href = "https://github.com/Wyatt-Wood/wyatt-wood.github.io"> <img class = "logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZUlXWTqL4xWiDTMLPMi3JvQlQi-YU3XG-Ozu-vj41U5uSPdc" /> </a>
+    </div>    
+  </div>
+    
+    <!--Container to hold About, Project, Construction, and Resume buttons-->
+    <div id = "linkContainer">   
+        
+        <a href = "about.html">
+            <div class = "portfolioContainer">
+              <p>About</p> 
+            </div>
+        </a>
+
+        <a href="file:///C:\Users\Wyatt\Documents\Resume\Resume-WyattWood.pdf" download = "WyattWood">
+            <div class = "portfolioContainer">
+                <p>Resume</p>
+            </div>
+        </a>
+
+        <a href = "projects.html">
+            <div class = "portfolioContainer">
+                <p>Projects</p> 
+            </div>
+        </a>
+    
+     <a href = "construction.html">
+        <div class = portfolioContainer>
+            <p>Next</p>
         </div>
+    </a>
+    </div>
+    
+    <div id = "name2"> <b> Wyatt Wood </b> </div>
+    <div id = "name3">Computer Engineering</div>
+    <div id = "name4">Class of 2018</div>
 
-        <div id = "littleContainer">
-            <a>
-            <img id = "portfolioPhoto" src = "https://i.vimeocdn.com/portrait/1392882_300x300.jpg" />
-            <p id = "portfolioText2">Projects</p> </a>
+<!--Headshot-->
+<img id="headerPhoto" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xal1/v/t1.0-9/12074884_1502189716769524_7811030605429363275_n.jpg?oh=807dd71acfc8d720868b111bdee2dad3&oe=56AFEB7A" />
+    
+    <p id = "footer"> <b>Last updated:</b> 31/12/2015</p>
+    
+    <script type="text/javascript" src="https://www.w3counter.com/tracker.js"></script>
+    <script type="text/javascript">
+        w3counter(98091);
+    </script>
+    
+    <noscript>
+        <div id = "counter">
+            <a href="http://www.w3counter.com">
+                <img src="https://www.w3counter.com/tracker.php?id=98091" style="border: 0" alt="W3Counter" />
             </a>
         </div>
+    </noscript>
 </div>
-    
-<div id = "horizontal3"></div>
-
-<!-- Counter -->
-<div id = "counterContainer">
-       <p id = "counterText">View Count:  </p>  
-     <a id = "counter" href="http://www.hitwebcounter.com" target="_blank"> 
-        <img id = "counterPhoto" src="http://hitwebcounter.com/counter/counter.php?page=6238732&style=0024&nbdigits=3&type=page&initCount=0" title="" Alt=""   border="0" > </a>  
-<div id = "footer"> <p><b>Last updated:</b> December 1st 2015</p></div>
-</div>
-</body>
-    
+    </body>
