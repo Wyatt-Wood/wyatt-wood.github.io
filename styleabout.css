@@ -84,15 +84,21 @@ letter-spacing: 3px;
     display: inline-block;
 }
 
+.photoContainer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 /*Portfolio*/
 .portfolioContainer{
     border: 2px solid #204056;
     border-radius: 10px;
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 60px;
     margin-right: 60px;
-    opacity: 0.7;
-       margin-top: 10px;
 }
 
 .linkText{
@@ -100,7 +106,7 @@ letter-spacing: 3px;
     text-decoration: none;
     color: #204056;
     font-family: Roboto;
-      margin-left: 40px;
+    margin-left: 40px;
     margin-right: 40px;
 }
 
@@ -109,8 +115,6 @@ letter-spacing: 3px;
 }
 
 #linkContainer{
-    position: absolute;
-    top: 70%;
-    width: 100%;
     text-align: center;
+    margin-top: 100px;
 }

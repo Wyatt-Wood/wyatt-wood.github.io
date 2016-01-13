@@ -99,19 +99,9 @@ a{
 .contentPhotos1{
     margin-left: 50px;
     margin-right: 50px;
-    height: 300px;
+    height: 350px;
     width: 200px;
     display: inline-block;
-    border-radius: 5px;
-}
-
-.falsePhotos1{
-    border: 2px dashed #204056;
-    display: inline-block;
-    height: 300px;
-    width: 200px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-radius: 5px;
 }
 
