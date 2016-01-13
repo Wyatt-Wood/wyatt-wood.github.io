@@ -1,7 +1,11 @@
-html,body {
+body {
     margin: 0;
     padding: 0;
     background-color: #DCDCDC;
+}
+
+html{
+    margin-top: 50px;
 }
 
 #topBar{
@@ -25,14 +29,13 @@ letter-spacing: 3px;
 }
 
 .logo {
-  float: right;
-  margin-right: 30px;
-  margin-top: 12.5px;
+  text-align: right;
   max-width: 35px;
   max-height: 35px;
   border-radius: 100%;
   border: 2px solid white;
   opacity: 0.5;
+    margin-left: 5%;
 }
 
 .logo:hover {
@@ -46,20 +49,25 @@ letter-spacing: 3px;
 #logoContainer{
     position: absolute;
     top: 0px;
-    right: 10%;
+    right: 10px;
+    text-align: right;
+    margin-top: 11px;
+    width: 300px;
+    height: 40px;
+    overflow: hidden;
 }
 
 #mainContainer{
     display: block;  
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 h1{
     color: #204056;
     font-family: Roboto;
-    display: block;
-    margin-left: 50px;
+    display: inline-block;
+    margin-left: 30%;
 }
 
 .contentContainer{
@@ -76,6 +84,60 @@ h1{
     color: grey;
     font-family: Abel;
     font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contentPhotos1{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.falsePhotos1{
+    border: 2px dashed #204056;
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.contentPhotos2{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.falsePhotos2{
+    border: 2px dashed #204056;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+        margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.photoContainer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 /*Portfolio*/
@@ -83,18 +145,19 @@ h1{
     border: 2px solid #204056;
     border-radius: 10px;
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 60px;
     margin-right: 60px;
-    margin-top: 10px;
 }
 
-.portfolioContainer, a, p{
+.linkText{
     font-size: 35px;
     text-decoration: none;
     color: #204056;
     font-family: Roboto;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .portfolioContainer:hover{
@@ -102,8 +165,5 @@ h1{
 }
 
 #linkContainer{
-    position: absolute;
-    top: 70%;
-    width: 100%;
     text-align: center;
 }
