@@ -72,7 +72,7 @@ h1{
 
 .contentContainer{
     display: block;
-    width: 400px;
+    width: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin: 0 auto;
@@ -108,8 +108,8 @@ a{
 .contentPhotos2{
     margin-left: 50px;
     margin-right: 50px;
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     display: inline-block;
     border-radius: 5px;
 }
@@ -117,8 +117,8 @@ a{
 .falsePhotos2{
     border: 2px dashed #204056;
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
         margin-left: 50px;
     margin-right: 50px;
     border-radius: 5px;
