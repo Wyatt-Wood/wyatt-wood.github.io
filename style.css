@@ -122,7 +122,8 @@ html,body {
     margin-left: 60px;
     margin-right: 60px;
     opacity: 0.7;
-       margin-top: 10px;
+    margin-top: 10px;
+    width: 200px;
 }
 
 .portfolioContainer, a, p{
@@ -130,8 +131,6 @@ html,body {
     text-decoration: none;
     color: white;
     font-family: Roboto;
-      margin-left: 40px;
-    margin-right: 40px;
 }
 
 .portfolioContainer:hover{
