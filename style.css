@@ -119,17 +119,17 @@ html,body {
     border: 2px solid white;
     border-radius: 10px;
     display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 60px;
     margin-right: 60px;
-    opacity: 0.7;
-    margin-top: 10px;
     width: 200px;
 }
 
-.portfolioContainer, a, p{
+.linkText{
     font-size: 35px;
     text-decoration: none;
-    color: white;
+    color: White;
     font-family: Roboto;
 }
 
@@ -138,10 +138,9 @@ html,body {
 }
 
 #linkContainer{
-    position: absolute;
-    top: 70%;
-    width: 100%;
     text-align: center;
+    opacity: 0.6;
+    margin-top: 150px;
 }
 
 #footer{
