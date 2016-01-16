@@ -4,7 +4,6 @@ body {
 }
 
 html{
-    margin-top: 100px;
     background-color: #DCDCDC;
 }
 
@@ -66,10 +65,9 @@ letter-spacing: 3px;
 .contentContainer{
     display: block;
     width: 600px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     margin: 0 auto;
     background-color: white;
+    margin-top: 75px;
 }
 
 .content{
@@ -82,12 +80,6 @@ letter-spacing: 3px;
     padding-right: 40px;
     text-decoration: none;
     display: inline-block;
-}
-
-.photoContainer{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
 }
 
 /*Portfolio*/
@@ -106,7 +98,6 @@ letter-spacing: 3px;
     font-size: 35px;
     text-decoration: none;
     color: #204056;
-    text-align: center;
     font-family: Roboto;
 }
 
@@ -116,5 +107,7 @@ letter-spacing: 3px;
 
 #linkContainer{
     text-align: center;
-    margin-top: 250px;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
 }

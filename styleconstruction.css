@@ -89,12 +89,6 @@ h1{
     width: 400px;
 }
 
-.photoContainer{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
 /*Portfolio*/
 .portfolioContainer{
     border: 2px solid #204056;
@@ -120,5 +114,7 @@ h1{
 
 #linkContainer{
     text-align: center;
-    margin-top: 250px;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
 }
