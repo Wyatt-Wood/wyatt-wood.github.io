@@ -26,6 +26,11 @@ html{
 letter-spacing: 3px;
   color: #DCDCDC;
     display: inline-block;
+    text-decoration: none;
+}
+
+#name:hover{
+      opacity: 0.8;
 }
 
 .logo {
@@ -132,7 +137,7 @@ a{
 
 /*Portfolio*/
 .portfolioContainer{
-    border: 2px solid #204056;
+    border: 2px solid lightgrey;
     border-radius: 10px;
     display: inline-block;
     margin-top: 10px;
@@ -147,6 +152,7 @@ a{
     text-decoration: none;
     color: #204056;
     font-family: Roboto;
+    color: lightgray;
 }
 
 .portfolioContainer:hover{
@@ -155,4 +161,6 @@ a{
 
 #linkContainer{
     text-align: center;
+    background-color: grey;
+    border-top: 2px solid #204056;
 }
