@@ -1,10 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 html{
     background-color: #DCDCDC;
+    min-height: 100%;
 }
 
 #topBar{
@@ -113,7 +115,5 @@ letter-spacing: 3px;
     text-align: center;
     background-color: grey;
     border-top: 2px solid #204056;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+    margin-top: 50px;
 }
