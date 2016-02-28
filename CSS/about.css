@@ -106,7 +106,7 @@ letter-spacing: 3px;
     color: lightgray;
 }
 
-.portfolioContainer:hover{
+.inner-nav:hover{
   opacity: 0.5;
 }
 
