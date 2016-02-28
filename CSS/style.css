@@ -11,7 +11,7 @@ body {
     background-size: 100% 100%;
 }
 
-#topBar{
+#ext-nav-bar{
     background-color: white;
     height: 60px;
     width: 100%;
@@ -20,14 +20,13 @@ body {
     z-index: 10;
 }
 
-/*Header div to contain header photo, buttons, background*/
 #mainContainer{
     display: block;  
     width: 100%;
     height: 100%;
 }
 
-#name {
+#text {
     font-family: Abel;
     text-align: left;
     margin-left: 15%;
@@ -67,7 +66,7 @@ body {
     overflow: hidden;
 }
 
-#name2{
+#text2{
     font-family: Roboto;
     font-size: 50px;
     letter-spacing: 5px;
@@ -77,29 +76,26 @@ body {
     margin-left: 80px;
 }
 
-#name3{
-     font-family: Roboto;
-  font-size: 30px;
-  letter-spacing: 2px;
+#text3{
+    font-family: Roboto;
+    font-size: 30px;
+    letter-spacing: 2px;
     display: block;
     text-align: left;
     color: whitesmoke;
     margin-left: 140px;
-
 }
 
-#name4{
-     font-family: Roboto;
-  font-size: 30px;
-  letter-spacing: 2px;
+#text4{
+    font-family: Roboto;
+    font-size: 30px;
+    letter-spacing: 2px;
     display: block;
     text-align: left;
     color: whitesmoke;
     margin-left: 140px;
-
 }
   
-/*Header*/
 
 #headerPhoto {
   height: 250px;
@@ -116,7 +112,7 @@ body {
 }
 
 /*Portfolio*/
-.portfolioContainer{
+.inner-nav{
     border: 2px solid white;
     border-radius: 10px;
     display: inline-block;
@@ -127,20 +123,20 @@ body {
     width: 200px;
 }
 
-.linkText{
+.inner-nav-text{
     font-size: 35px;
     color: White;
     font-family: Roboto;
 }
 
-.portfolioContainer:hover{
+.inner-nav:hover{
   opacity: 0.5;
 }
 
-#linkContainer{
+#inner-nav-container{
     text-align: center;
     opacity: 0.6;
-    margin-top: 175px;
+    margin-top: 250px;
 }
 
 #footer{
