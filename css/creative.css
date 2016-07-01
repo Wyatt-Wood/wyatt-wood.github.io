@@ -224,9 +224,9 @@ header .header-content .header-content-inner p {
   margin-bottom: 0;
 }
 .portfolio-box {
-  position: relative;
-  display: block;
-  max-width: 650px;
+  display: inline-block;
+  max-width: 400px;
+  
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
